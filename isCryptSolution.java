@@ -72,6 +72,7 @@ boolean isCryptSolution(String[] crypt, char[][] solution) {
         map.put(solution[i][0], solution[i][1]);
     }
     
+    //Checking words matching the given Zero conditions so we can skip the rest of the process in a non match case.
     for(int i=0;i<3;i++){
         if(crypt[i].length() >1 && map.get(crypt[i].charAt(0)).equals('0')) return false;
     }
