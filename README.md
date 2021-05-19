@@ -1,9 +1,8 @@
 # Challenges
 Coding challenges solved from many different pages
 
-- CodeSignal
-https://app.codesignal.com/profile/xoan_r
-  Arrays challenges:
+CodeSignal challenges: https://app.codesignal.com/profile/xoan_r
+  - Arrays:
     - firstDuplicate.java
     - firstNotRepeatingCharacter.java
     - rotateImage.java
