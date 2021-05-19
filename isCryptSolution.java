@@ -72,7 +72,9 @@ boolean isCryptSolution(String[] crypt, char[][] solution) {
         map.put(solution[i][0], solution[i][1]);
     }
     
-    if((crypt[0].length() >1 && map.get(crypt[0].charAt(0)).equals('0')) || (crypt[1].length() >1 && map.get(crypt[1].charAt(0)).equals('0')) || (crypt[2].length() >1 && map.get(crypt[2].charAt(0)).equals('0'))) return false;
+    for(int i=0;i<3;i++){
+        if(crypt[i].length() >1 && map.get(crypt[i].charAt(0)).equals('0')) return false;
+    }
     
     for(int i=0;i<3;i++){
         String wValue="";
