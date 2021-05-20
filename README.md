@@ -1,5 +1,4 @@
 # Challenges
-Coding challenges from many different pages
 
 1. CodeSignal [profile](https://app.codesignal.com/profile/xoan_r):
    - [x] Arrays:
