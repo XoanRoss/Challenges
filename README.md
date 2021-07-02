@@ -7,3 +7,4 @@
      - [rotateImage.java](https://github.com/XoanRoss/Challenges/blob/main/rotateImage.java)
      - [sudoku2.java](https://github.com/XoanRoss/Challenges/blob/main/sudoku2.java)
      - [isCryptSolution.java](https://github.com/XoanRoss/Challenges/blob/main/isCryptSolution.java)
+     - [removeKFromList.java](https://github.com/XoanRoss/Challenges/blob/main/removeKFromList.java)
