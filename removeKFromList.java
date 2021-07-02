@@ -44,17 +44,17 @@ Return l with all the values equal to k removed.
 //
 
 ListNode<Integer> removeKFromList(ListNode<Integer> l, int k) {    
-	     ListNode result = new ListNode(0);
-         result.next = l;
-         ListNode temp = result;
-         
-         while(temp.next != null){
-             if(!temp.next.value.equals(k)){
-                 temp = temp.next;
-             }else{
-                 temp.next = temp.next.next;
-             }
-         }
-         
-	     return result.next;
+	ListNode result = new ListNode(0);
+	result.next = l;
+	ListNode temp = result;
+
+	while(temp.next != null){
+		if(!temp.next.value.equals(k)){
+			temp = temp.next;
+		}else{
+			temp.next = temp.next.next;
+		}
+	}
+
+	return result.next;
 }
