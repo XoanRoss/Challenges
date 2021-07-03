@@ -9,3 +9,4 @@
      - [isCryptSolution.java](https://github.com/XoanRoss/Challenges/blob/main/isCryptSolution.java)
    - [ ] Linked Lists:
      - [removeKFromList.java](https://github.com/XoanRoss/Challenges/blob/main/removeKFromList.java)
+     - [isListPalindrome.java](https://github.com/XoanRoss/Challenges/blob/main/isListPalindrome.java)
